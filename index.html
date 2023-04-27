@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="logo">Sneakerence</p>
+        <a class="header-item" href="./index.html">Main</a>
+        <a class="header-item" href="#">Contact</a>
+        <a class="header-item" href="#">About us</a>
+        <p class="balance">Balance: <span style="color: green;">300$</span></p>
+    </header>
+    <main>
+        <div class="products">
+            <div class="product-card" id="productSneaker">
+                <img class="product-photo" src="https://sneakerstudio.com.ua/ukr_pm_KROSIVKI-adidas-Originals-Ozelia-H04252-1028012_1.jpg">
+                <p class="product-name">adidas Originals Ozelia</p>
+                <p class="product-price">100$</p>
+                <button class="addToBucketBtn">ADD TO BUCKET</button>
+            </div>
+            <div class="product-card" id="productSneaker">
+                <img class="product-photo" src="https://sneakerstudio.com.ua/ukr_pm_CHOLOVICHI-KROSIVKI-adidas-Originals-Ozweego-Celox-GZ5231-1038175_1.jpg">
+                <p class="product-name">adidas Originals Ozweego</p>
+                <p class="product-price">110$</p>
+                <button class="addToBucketBtn">ADD TO BUCKET</button>
+            </div>
+            <div class="product-card" id="productSneaker">
+                <img class="product-photo" src="https://sneakerstudio.com.ua/ukr_pm_ZHINOCHE-VZUTTIA-Hoka-One-One-Bondi-8-1127952-CVPL-1059249_1.jpg">
+                <p class="product-name">Hoka One One Bondi 8 </p>
+                <p class="product-price">150$</p>
+                <button class="addToBucketBtn">ADD TO BUCKET</button>
+            </div>
+        </div>
+        <div class="bucket">
+            <h1 class="bucket-hdr">Bucket</h1>
+            <div class="productsToBuy"></div>
+            <button class="clearBtn">Clear bucket</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

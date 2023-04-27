@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: antiquewhite;
+}
+body{
+    background-color: black;
+}
+.header-item{
+    color: brown;
+    text-decoration: none;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: large;
+}
+.balance{
+    color: brown;
+    text-transform: uppercase;
+}
+main{
+    width: 100%;
+}
+.products{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-card{
+    background-color: #F2F3F5;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-photo{
+    width: 300px;
+    margin-top: -2.5%;
+}
+.addToBucketBtn{
+    border: none;
+    background-color: brown;
+    color: white;
+}
+.bucket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.productsToBuy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.productsToBuy p {
+    color: white;
+}
+.bucket{
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+    background-color: rgb(69, 62, 62);
+}
+.bucket-hdr{
+    margin-top: -5%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 400;
+}
